@@ -138,7 +138,9 @@
         <form><center>
           <input type="email" placeholder="Correo electrónico" required>
           <input type="password" placeholder="Contraseña" required>
-          <button type="submit">Ingresar</button></center>
+          <a href="inicio.html">
+    <button>inicia</button>
+  </a> 
         </form>
         <div class="toggle-link">
           <p>¿No tienes cuenta? <a href="#" onclick="toggleForm()">Regístrate aquí</a></p>
