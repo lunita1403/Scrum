@@ -11,7 +11,6 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
-
     body {
       height: 100vh;
       background: linear-gradient(to bottom, #ffffff, #d2691e);
@@ -20,7 +19,6 @@
       align-items: center;
       overflow: hidden;
     }
-
     .logo-container {
       position: absolute;
       top: 20px;
@@ -28,18 +26,15 @@
       display: flex;
       align-items: center;
     }
-
     .logo-container img {
       height: 60px;
       margin-right: 10px;
     }
-
     .logo-container span {
       font-size: 26px;
       font-weight: 600;
       color: #8B4513;
     }
-
     .container {
       width: 400px;
       height: 450px;
@@ -50,7 +45,6 @@
       align-items: center;
       justify-content: center;
     }
-
     .form-box {
       width: 100%;
       height: 100%;
@@ -58,11 +52,9 @@
       transform-style: preserve-3d;
       transition: transform 0.8s ease-in-out;
     }
-
     .form-box.show-register {
       transform: rotateY(180deg);
     }
-
     .form-panel {
       position: absolute;
       width: 100%;
@@ -78,14 +70,12 @@
       justify-content: center;
       transform-style: preserve-3d;
     }
-
     .form-panel h2 {
       text-align: center;
       color: #8B4513;
       margin-bottom: 25px;
       font-weight: 600;
     }
-
     .form-panel input {
       padding: 12px 14px;
       margin-bottom: 15px;
@@ -96,12 +86,10 @@
       font-size: 14px;
       transition: all 0.3s ease;
     }
-
     .form-panel input:focus {
       border-color: #d2691e;
       background-color: #fff;
     }
-
     .form-panel button {
       background: transparent;
       border: 2px solid #d2691e;
@@ -112,16 +100,13 @@
       cursor: pointer;
       transition: background 0.3s ease;
     }
-
     .form-panel button:hover {
       background-color: #d2691e1a;
     }
-
     .toggle-link {
       text-align: center;
       margin-top: 15px;
     }
-
     .toggle-link a {
       text-decoration: none;
       color: #8B4513;
@@ -130,11 +115,9 @@
       border-bottom: 1px dashed #8B4513;
       transition: color 0.3s ease;
     }
-
     .toggle-link a:hover {
       color: #d2691e;
     }
-
     .register-panel {
       transform: rotateY(180deg);
     }
